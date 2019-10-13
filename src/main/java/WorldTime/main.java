@@ -12,6 +12,9 @@ public class main {
         String country = scanner.next();
 
         //Uso da classe WorldTime para usar o método getTimeCountry
+        /**
+         * Qualquer coisa
+         */
         WorldTime time = new WorldTime();
         time.getTimeByCountry(country);
 
